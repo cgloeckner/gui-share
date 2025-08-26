@@ -18,7 +18,7 @@ Bash scripts with zenity gui to:
 
 # How it works
 
-It creates a `.gui-share` folder in the users main folder (which, for us, is synced across devices using a nextcloud server). Inside this is a `Austeilen`-folder (source folder for sharing files) and a `Kurse`-folder for custom-created courses (see above). Each student in a custom course is a symlink to the folder in `Students-Home`, hence the teacher must be signed in to these students' main courses (aka classes). The share-script iterates the selected class (in `Students-Home`) or custom class (in `.gui-share/Kurse`) to copy.
+It creates a `.gui-share` folder in the users main folder (which, for us, is synced across devices using a nextcloud server). Inside this is an `Austeilen`-folder (source folder for sharing files) and a `Kurse`-folder for custom-created courses (see above). Each student in a custom course is a symlink to the folder in `Students-Home`, hence the teacher must be signed in to these students' main courses (aka classes). The share-script iterates the selected class (in `Students-Home`) or custom class (in `.gui-share/Kurse`) to copy.
 
 # Problems Introduced
 
