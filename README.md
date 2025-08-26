@@ -6,7 +6,7 @@ an alternative file distribution tool
 We're running an instance of [Linux Muster](https://www.linuxmuster.net/de/home/) on our school but are not satisfied with the built-in mechanism for distributing files across a course's set of students.
 Our requirements:
 - Access sharing files without logging in to the server (which causes indirection for less tech-savvy teacher colleagues)
-- Asynchonous feedback about the process of sharing (e.g. progress bar)
+- Synchonous feedback about the process of sharing (e.g. progress bar) (the built-in mechanism is kind of async)
 - Copying files into the students' main folder instead of copying to `<student>/transfer/<teacher>/` (which causes indirection for younger students to find the files)
 - Sharing with all students of a custom course (some courses are visited by students from different classes, like e.g. a computer science course has members from different classes in the grade)
 
