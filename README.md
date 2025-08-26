@@ -22,4 +22,4 @@ It creates a `.gui-share` folder in the users main folder (which, for us, is syn
 
 # Problems Introduced
 
-For reasons yet to be discovered, copying files into students folders keeps the original user (teacher account) as the files' owner, hence counting it towards the teachers quota instead of the students. Turns out this needs to be fixed on the server-side, because chown is not available to this degree as a standard domain user. The admins who are running the server agreed on cronjob'ing the `consolidate.sh` script, which fixes this.
+For reasons yet to be discovered, copying files into students folders keeps the original user (teacher account) as the files' owner, hence counting it towards the teachers quota instead of the students' quote. Turns out this needs to be fixed on the server-side, because chown is not available to this degree as a standard domain user. The admins who are running the server agreed on cronjob'ing the `consolidate.sh` script, which fixes this.
